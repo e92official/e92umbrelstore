@@ -1,5 +1,3 @@
-version: "3.7"
-
 services:
   spotube:
     image: lscr.io/linuxserver/spotube:latest
@@ -14,9 +12,8 @@ services:
       - ${APP_DATA_DIR}/data:/data
     ports:
       - ${APP_SPOTUBE_PORT:-8157}:8157
-    networks:
-      - umbrel
 
 networks:
-  umbrel:
+  default:
     external: true
+    name: umbrel
