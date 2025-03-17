@@ -1,15 +1,19 @@
 services:
   spotube:
-    image: ghcr.io/linuxserver/spotube:latest
+    image: ghcr.io/linuxserver/spotube:arm64v8-latest
     container_name: spotube
     restart: on-failure
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Zurich
+      - DISPLAY_WIDTH=1280
+      - DISPLAY_HEIGHT=720
+      - GUIAUTOSTART=true
+      - WEBPAGE_TITLE=Spotube
+      - UMASK=022
     volumes:
       - ${APP_DATA_DIR}/config:/config
       - ${APP_DATA_DIR}/data:/data
-      - ./client.conf:/etc/pipewire/client.conf
     ports:
       - ${APP_SPOTUBE_PORT:-8157}:8157
