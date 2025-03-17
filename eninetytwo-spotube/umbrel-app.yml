@@ -26,4 +26,5 @@ defaultUsername: ""
 defaultPassword: ""
 app_proxy:
   container: spotube
+  host: spotube
   port: 8157

@@ -12,8 +12,3 @@ services:
       - ${APP_DATA_DIR}/data:/data
     ports:
       - ${APP_SPOTUBE_PORT:-8157}:8157
-
-networks:
-  default:
-    external: true
-    name: umbrel
