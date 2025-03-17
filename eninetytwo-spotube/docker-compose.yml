@@ -10,5 +10,6 @@ services:
     volumes:
       - ${APP_DATA_DIR}/config:/config
       - ${APP_DATA_DIR}/data:/data
+      - ./client.conf:/etc/pipewire/client.conf
     ports:
       - ${APP_SPOTUBE_PORT:-8157}:8157
