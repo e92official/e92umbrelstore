@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   spotube:
-    image: ghcr.io/krtirtho/spotube:latest
+    image: lscr.io/linuxserver/spotube:latest
     container_name: spotube
     restart: on-failure
     environment:
