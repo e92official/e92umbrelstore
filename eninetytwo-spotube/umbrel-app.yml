@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: eninetytwo-spotube
+name: Spotube
+tagline: Open source Spotify client
+icon: https://raw.githubusercontent.com/KRTirtho/spotube/refs/heads/master/assets/spotube-logo.png
+category: media
+version: "1.0.0"
+port: 8157
+description: >-
+  Spotube is a free and open-source Spotify client that doesn't require Premium and
+  focuses on privacy and resource usage while maintaining the original look and feel.
+developer: KRTirtho
+website: https://github.com/KRTirtho/spotube
+submitter: E92
+submission: https://github.com/KRTirtho/spotube
+repo: https://github.com/KRTirtho/spotube
+support: https://github.com/KRTirtho/spotube/issues
+gallery:
+  - https://raw.githubusercontent.com/KRTirtho/spotube/master/assets/spotube-screenshot.png
+  - https://raw.githubusercontent.com/KRTirtho/spotube/master/assets/mobile-screenshots/combined.png
+releaseNotes: >-
+  - Initial release of Spotube for Umbrel
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
