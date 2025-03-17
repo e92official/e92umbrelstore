@@ -24,3 +24,6 @@ dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
+app_proxy:
+  container: spotube
+  port: 8157
