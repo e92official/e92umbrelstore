@@ -12,6 +12,8 @@ services:
       - GUIAUTOSTART=true
       - WEBPAGE_TITLE=Spotube
       - UMASK=022
+      - NO_AT_BRIDGE=1
+      - WEBKIT_DISABLE_COMPOSITING_MODE=1
     volumes:
       - ${APP_DATA_DIR}/config:/config
       - ${APP_DATA_DIR}/data:/data
