@@ -1,12 +1,12 @@
 services:
   spotube:
-    image: lscr.io/linuxserver/spotube:latest
+    image: ghcr.io/linuxserver/spotube:latest
     container_name: spotube
     restart: on-failure
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Etc/UTC
+      - TZ=Europe/Zurich
     volumes:
       - ${APP_DATA_DIR}/config:/config
       - ${APP_DATA_DIR}/data:/data
