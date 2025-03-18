@@ -2,7 +2,7 @@ manifestVersion: 1
 id: eninetytwo-focalboard
 name: Focalboard
 tagline: Project management and kanban boards
-icon: https://www.focalboard.com/img/favicon.svg
+icon: https://avatars.githubusercontent.com/u/165817188?s=48&v=4
 category: Productivity
 version: "1.0.0"
 port: 8100
@@ -15,10 +15,13 @@ developer:
   name: Mattermost
   website: https://www.focalboard.com/
 dependencies: []
-repo: https://github.com/mattermost/focalboard
-support: https://github.com/mattermost/focalboard/issues
+repo: https://github.com/mattermost-community/focalboard
+support: https://github.com/mattermost-community/focalboard/issues
 permissions:
   - networking
+gallery:
+  - https://raw.githubusercontent.com/mattermost-community/focalboard/main/website/site/static/img/hero.jpg
+  - https://www.focalboard.com/img/whatsnew-boards.png
 path: ""
 defaultUsername: ""
 defaultPassword: ""
