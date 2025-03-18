@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: eninetytwo-focalboard
+name: Focalboard
+tagline: Project management and kanban boards
+icon: https://www.focalboard.com/img/favicon.svg
+category: Productivity
+version: "1.0.0"
+port: 8100
+releaseNotes: >-
+  Initial release of Focalboard for Umbrel
+description:
+  short: "An open source, self-hosted alternative to Trello, Notion, and Asana"
+  long: "Focalboard is an open source, self-hosted project management tool that's an alternative to Trello, Notion, and Asana. Keep full control over your data with this powerful organizational tool for visual project management."
+developer:
+  name: Mattermost
+  website: https://www.focalboard.com/
+dependencies: []
+repo: https://github.com/mattermost/focalboard
+support: https://github.com/mattermost/focalboard/issues
+permissions:
+  - networking
+path: ""
+defaultUsername: ""
+defaultPassword: ""
